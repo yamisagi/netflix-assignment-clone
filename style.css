@@ -47,6 +47,9 @@ header {
   backdrop-filter: blur(10px);
   border-radius: 10px;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .survey-block {
   -webkit-backdrop-filter: blur(10px);
   display: block;
