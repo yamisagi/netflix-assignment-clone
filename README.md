@@ -69,7 +69,8 @@ In this repository, I will create Netflix Survey Clone from scratch. I will HTML
 - [x] Make head section sticky
 - [x] Set overflow for body
 - [x] Fix when scrolling, head section is not visible
-- [x] Fix when scrolling under head section, it was not turning to black
+- [x] Add media query for mobile
+- [x] Add Script for when user scroll down, header will be sticky and blurry
 - [x] Project done
 
 

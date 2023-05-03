@@ -48,17 +48,6 @@ label {
   font-size: 17px;
 }
 
-header {
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: brightness(0%);
-  padding: 10px;
-  margin: auto;
-  position: sticky;
-  top: 0;
-  bottom: 20px;
-  z-index: 1;
-}
-
 button {
   padding: 10px;
   padding-left: 30px;
@@ -75,9 +64,19 @@ button {
   color: red;
 }
 
+.header {
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  /* bottom: 20px; */
+  z-index: 999;
+}
+
 .shadowed-section {
   -webkit-backdrop-filter: blur(10px);
-  overflow: scroll;
   display: block;
   padding: 0px;
   margin: 20px auto;
@@ -86,13 +85,13 @@ button {
   backdrop-filter: blur(10px);
   border-radius: 10px;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
 .survey-block {
   -webkit-backdrop-filter: blur(10px);
   display: block;
-  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin: 20px auto;
