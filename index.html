@@ -16,121 +16,129 @@
   <body>
     <div>
       <section class="shadowed-section">
-        <h1>NET<span class="header-red">FLIX</span></h1>
-        <article>
-          <p>
-            Thank you for participating in our survey. We will get back to you
-            soon.
-          </p>
-        </article>
-        <div class="survey-block">
-          <form action="POST">
-            <!-- Name, Age, Email, Content Type,3 Check boxes, 3 Radio and Feeddback section -->
-            <div class="form-control">
-              <label for="name">Name</label>
-              <input
-                class="text-typed-inputs"
-                type="text"
-                id="name"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div class="form-control">
-              <label for="age">Age</label>
-              <input
-                class="text-typed-inputs"
-                type="number"
-                id="age"
-                placeholder="Enter your age"
-              />
-            </div>
-
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                class="text-typed"
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-              />
-            </div>
-
-            <div class="form-control">
-              <label for="content-type">Content Type</label>
-              <select
-                class="text-typed-inputs"
-                name="content-type"
-                id="content-type"
-              >
-                <option value="movie">Movie</option>
-                <option value="series">Series</option>
-                <option value="documentary">Documentary</option>
-              </select>
-            </div>
-
-            <div class="form-control">
-              <label for="checkboxes">What do you like to watch?</label>
-              <div class="checkboxes">
-                <label for="action">
-                  <input
-                    type="checkbox"
-                    id="action"
-                    name="action"
-                    value="action"
-                  />
-                  Action
-                </label>
-                <label for="comedy">
-                  <input
-                    type="checkbox"
-                    id="comedy"
-                    name="comedy"
-                    value="comedy"
-                  />
-                  Comedy
-                </label>
-                <label for="horror">
-                  <input
-                    type="checkbox"
-                    id="horror"
-                    name="horror"
-                    value="horror"
-                  />
-                  Horror
-                </label>
+        <div class="sticky">
+          <h1>NET<span class="header-red">FLIX</span></h1>
+          <article>
+            <p>
+              Thank you for participating in our survey. We will get back to you
+              soon.
+            </p>
+          </article>
+        </div>
+        <div>
+          <div class="survey-block">
+            <form action="POST">
+              <!-- Name, Age, Email, Content Type,3 Check boxes, 3 Radio and Feeddback section -->
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  class="text-typed-inputs"
+                  type="text"
+                  id="name"
+                  placeholder="Enter your name"
+                />
               </div>
-            </div>
-
-            <div class="form-control">
-              <label for="radios">Gender</label>
-              <div class="radios">
-                <label for="male">
-                  <input type="radio" id="male" name="male" value="male" />
-                  Male
-                </label>
-                <label for="female">
-                  <input
-                    type="radio"
-                    id="female"
-                    name="female"
-                    value="female"
-                  />
-                  Female
-                </label>
-                <label for="other">
-                  <input type="radio" id="other" name="other" value="other" />
-                  Other
-                </label>
+              <div class="form-control">
+                <label for="age">Age</label>
+                <input
+                  class="text-typed-inputs"
+                  type="number"
+                  id="age"
+                  placeholder="Enter your age"
+                />
               </div>
-            </div>
 
-            <div class="form-control">
-              <label for="feedback">Feedback</label>
-              <textarea name="feedback" id="feedback" placeholder="Any Comment ?"></textarea>
-            </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  class="text-typed-inputs"
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
 
-            <button type="submit">Submit</button>
-          </form>
+              <div class="form-control">
+                <label for="content-type">Content Type</label>
+                <select
+                  class="text-typed-inputs"
+                  name="content-type"
+                  id="content-type"
+                >
+                  <option value="movie">Movie</option>
+                  <option value="series">Series</option>
+                  <option value="documentary">Documentary</option>
+                </select>
+              </div>
+
+              <div class="form-control">
+                <label for="checkboxes">What do you like to watch?</label>
+                <div class="checkboxes">
+                  <label for="action">
+                    <input
+                      type="checkbox"
+                      id="action"
+                      name="action"
+                      value="action"
+                    />
+                    Action
+                  </label>
+                  <label for="comedy">
+                    <input
+                      type="checkbox"
+                      id="comedy"
+                      name="comedy"
+                      value="comedy"
+                    />
+                    Comedy
+                  </label>
+                  <label for="horror">
+                    <input
+                      type="checkbox"
+                      id="horror"
+                      name="horror"
+                      value="horror"
+                    />
+                    Horror
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-control">
+                <label for="radios">Gender</label>
+                <div class="radios">
+                  <label for="male">
+                    <input type="radio" id="male" name="male" value="male" />
+                    Male
+                  </label>
+                  <label for="female">
+                    <input
+                      type="radio"
+                      id="female"
+                      name="female"
+                      value="female"
+                    />
+                    Female
+                  </label>
+                  <label for="other">
+                    <input type="radio" id="other" name="other" value="other" />
+                    Other
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-control">
+                <label for="feedback">Feedback</label>
+                <textarea
+                  name="feedback"
+                  id="feedback"
+                  placeholder="Any Comment ?"
+                ></textarea>
+              </div>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
         </div>
       </section>
     </div>

@@ -22,11 +22,24 @@ p {
 }
 
 .header-red {
-  color: #e74c3c;
+  color: red;
+}
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  bottom: 20px;
+}
+.sticky:not(.sticky-header) {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  bottom: 20px;
 }
 
+
 .shadowed-section {
-  overflow: hidden;
+  overflow: scroll;
   display: block;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
@@ -51,10 +64,9 @@ p {
 .form-control {
   text-align: start;
   display: block;
-  margin: 5px auto;
+  margin: 20px auto;
 }
 button {
-  margin: 5px auto;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -78,7 +90,6 @@ option {
 }
 
 textarea {
-
   text-align: start;
   padding: 5px;
   display: block;
