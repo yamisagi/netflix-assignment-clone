@@ -61,6 +61,11 @@ In this repository, I will create Netflix Survey Clone from scratch. I will HTML
 ## Roadmap
 
 - [x] Project Setup
+- [x] HTML Structure
+- [x] CSS Styling
+- [x] Linking Font, CSS etc.
+- [x] Add Image
+
 
 
 
