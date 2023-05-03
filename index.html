@@ -28,21 +28,40 @@
             <!-- Name, Age, Email, Content Type,3 Check boxes, 3 Radio and Feeddback section -->
             <div class="form-control">
               <label for="name">Name</label>
-              <input type="text" id="name" placeholder="Enter your name" />
+              <input
+                class="text-typed-inputs"
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+              />
             </div>
             <div class="form-control">
               <label for="age">Age</label>
-              <input type="number" id="age" placeholder="Enter your age" />
+              <input
+                class="text-typed-inputs"
+                type="number"
+                id="age"
+                placeholder="Enter your age"
+              />
             </div>
 
             <div class="form-control">
               <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Enter your email" />
+              <input
+                class="text-typed"
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+              />
             </div>
 
             <div class="form-control">
               <label for="content-type">Content Type</label>
-              <select name="content-type" id="content-type">
+              <select
+                class="text-typed-inputs"
+                name="content-type"
+                id="content-type"
+              >
                 <option value="movie">Movie</option>
                 <option value="series">Series</option>
                 <option value="documentary">Documentary</option>
@@ -107,7 +126,7 @@
 
             <div class="form-control">
               <label for="feedback">Feedback</label>
-              <textarea name="feedback" id="feedback">Any Comment ?</textarea>
+              <textarea name="feedback" id="feedback" placeholder="Any Comment ?"></textarea>
             </div>
 
             <button type="submit">Submit</button>

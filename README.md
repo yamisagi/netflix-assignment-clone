@@ -65,6 +65,8 @@ In this repository, I will create Netflix Survey Clone from scratch. I will HTML
 - [x] CSS Styling
 - [x] Linking Font, CSS etc.
 - [x] Add Image
+- [x] Fix Textarea 
+
 
 
 
