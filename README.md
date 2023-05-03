@@ -67,6 +67,10 @@ In this repository, I will create Netflix Survey Clone from scratch. I will HTML
 - [x] Add Image
 - [x] Fix Textarea 
 - [x] Make head section sticky
+- [x] Set overflow for body
+- [x] Fix when scrolling, head section is not visible
+- [x] Fix when scrolling under head section, it was not turning to black
+- [x] Project done
 
 
 
